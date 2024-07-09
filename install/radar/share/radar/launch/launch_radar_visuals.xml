@@ -1,0 +1,8 @@
+<!--
+    Launch radar visuals and necessary pre-processing
+-->
+<launch>
+    <!-- Launch the radar visualization node -->
+    <node pkg="radar" exec="radar_image_visualizer" name="radar_image_visualizer" output="screen"/>
+    <node pkg="radar" exec="landmark_estimator" name="landmark_estimator" output="screen"/>
+</launch>

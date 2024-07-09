@@ -1,0 +1,10 @@
+{
+  "nr_rx": 4,
+  "nr_rx_horizontal": 3,
+  "chirpsamples": 128,
+  "num_chirps": 32,
+  "n_beams": 181,
+  "max_angle_degrees": 45,
+  "pulse_repetition_time": 0.00058,
+  "bandwidth": 4000000000.0
+}

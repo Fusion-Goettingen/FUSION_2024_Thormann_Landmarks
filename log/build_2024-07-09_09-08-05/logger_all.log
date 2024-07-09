@@ -1,0 +1,325 @@
+[3.213s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.213s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74ba45e2ead0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74ba45e2ffa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74ba45e2ffa0>>, mixin_verb=('build',))
+[7.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.004s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks'
+[7.005s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.005s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.005s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.007s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.082s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.082s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[7.083s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extensions ['ignore', 'ignore_ament_install']
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extension 'ignore'
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extension 'ignore_ament_install'
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extensions ['colcon_pkg']
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extension 'colcon_pkg'
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extensions ['colcon_meta']
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extension 'colcon_meta'
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extensions ['ros']
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extension 'ros'
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extensions ['cmake', 'python']
+[7.084s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extension 'cmake'
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extension 'python'
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extensions ['python_setup_py']
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences) by extension 'python_setup_py'
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extensions ['ignore', 'ignore_ament_install']
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extension 'ignore'
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extension 'ignore_ament_install'
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extensions ['colcon_pkg']
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extension 'colcon_pkg'
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extensions ['colcon_meta']
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extension 'colcon_meta'
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extensions ['ros']
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extension 'ros'
+[7.085s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extensions ['cmake', 'python']
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extension 'cmake'
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extension 'python'
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extensions ['python_setup_py']
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear) by extension 'python_setup_py'
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extensions ['ignore', 'ignore_ament_install']
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extension 'ignore'
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extension 'ignore_ament_install'
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extensions ['colcon_pkg']
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extension 'colcon_pkg'
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extensions ['colcon_meta']
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extension 'colcon_meta'
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extensions ['ros']
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extension 'ros'
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extensions ['cmake', 'python']
+[7.086s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extension 'cmake'
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extension 'python'
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extensions ['python_setup_py']
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq1_linear/rosbag2_2024_02_07-15_47_40) by extension 'python_setup_py'
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extensions ['ignore', 'ignore_ament_install']
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extension 'ignore'
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extension 'ignore_ament_install'
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extensions ['colcon_pkg']
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extension 'colcon_pkg'
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extensions ['colcon_meta']
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extension 'colcon_meta'
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extensions ['ros']
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extension 'ros'
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extensions ['cmake', 'python']
+[7.087s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extension 'cmake'
+[7.088s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extension 'python'
+[7.088s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extensions ['python_setup_py']
+[7.088s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves) by extension 'python_setup_py'
+[7.105s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extensions ['ignore', 'ignore_ament_install']
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extension 'ignore'
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extension 'ignore_ament_install'
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extensions ['colcon_pkg']
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extension 'colcon_pkg'
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extensions ['colcon_meta']
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extension 'colcon_meta'
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extensions ['ros']
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extension 'ros'
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extensions ['cmake', 'python']
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extension 'cmake'
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extension 'python'
+[7.106s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extensions ['python_setup_py']
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq2_curves/rosbag2_2024_02_07-15_53_25) by extension 'python_setup_py'
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extensions ['ignore', 'ignore_ament_install']
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extension 'ignore'
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extension 'ignore_ament_install'
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extensions ['colcon_pkg']
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extension 'colcon_pkg'
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extensions ['colcon_meta']
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extension 'colcon_meta'
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extensions ['ros']
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extension 'ros'
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extensions ['cmake', 'python']
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extension 'cmake'
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extension 'python'
+[7.107s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extensions ['python_setup_py']
+[7.108s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom) by extension 'python_setup_py'
+[7.108s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extensions ['ignore', 'ignore_ament_install']
+[7.108s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extension 'ignore'
+[7.108s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extension 'ignore_ament_install'
+[7.108s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extensions ['colcon_pkg']
+[7.108s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extension 'colcon_pkg'
+[7.108s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extensions ['colcon_meta']
+[7.109s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extension 'colcon_meta'
+[7.109s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extensions ['ros']
+[7.109s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extension 'ros'
+[7.109s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extensions ['cmake', 'python']
+[7.109s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extension 'cmake'
+[7.109s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extension 'python'
+[7.109s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extensions ['python_setup_py']
+[7.109s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_sequences/seq3_slalom/rosbag2_2024_02_07-15_58_22) by extension 'python_setup_py'
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extensions ['ignore', 'ignore_ament_install']
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extension 'ignore'
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extension 'ignore_ament_install'
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extensions ['colcon_pkg']
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extension 'colcon_pkg'
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extensions ['colcon_meta']
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extension 'colcon_meta'
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extensions ['ros']
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extension 'ros'
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extensions ['cmake', 'python']
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extension 'cmake'
+[7.110s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extension 'python'
+[7.111s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extensions ['python_setup_py']
+[7.111s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_training) by extension 'python_setup_py'
+[7.111s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extensions ['ignore', 'ignore_ament_install']
+[7.111s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extension 'ignore'
+[7.111s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extension 'ignore_ament_install'
+[7.111s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extensions ['colcon_pkg']
+[7.111s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extension 'colcon_pkg'
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extensions ['colcon_meta']
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extension 'colcon_meta'
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extensions ['ros']
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extension 'ros'
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extensions ['cmake', 'python']
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extension 'cmake'
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extension 'python'
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extensions ['python_setup_py']
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(data/fusion_validation) by extension 'python_setup_py'
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.112s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extensions ['ignore', 'ignore_ament_install']
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extension 'ignore'
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extension 'ignore_ament_install'
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extensions ['colcon_pkg']
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extension 'colcon_pkg'
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extensions ['colcon_meta']
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extension 'colcon_meta'
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extensions ['ros']
+[7.113s] Level 1:colcon.colcon_core.package_identification:_identify(radar) by extension 'ros'
+[7.141s] DEBUG:colcon.colcon_core.package_identification:Package 'radar' with type 'ros.ament_python' and name 'radar'
+[7.141s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[7.141s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extension 'ignore'
+[7.142s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extension 'ignore_ament_install'
+[7.142s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extensions ['colcon_pkg']
+[7.142s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extension 'colcon_pkg'
+[7.142s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extensions ['colcon_meta']
+[7.142s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extension 'colcon_meta'
+[7.142s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extensions ['ros']
+[7.142s] Level 1:colcon.colcon_core.package_identification:_identify(radar_interfaces) by extension 'ros'
+[7.160s] DEBUG:colcon.colcon_core.package_identification:Package 'radar_interfaces' with type 'ros.ament_cmake' and name 'radar_interfaces'
+[7.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.160s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.399s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/fusion/turtlebot4_ws/install
+[7.425s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
+[7.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.573s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'cmake_args' from command line to 'None'
+[7.573s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'cmake_target' from command line to 'None'
+[7.573s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.573s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'cmake_clean_cache' from command line to 'False'
+[7.573s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'cmake_clean_first' from command line to 'False'
+[7.573s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'cmake_force_configure' from command line to 'False'
+[7.573s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'ament_cmake_args' from command line to 'None'
+[7.573s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'catkin_cmake_args' from command line to 'None'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.574s] DEBUG:colcon.colcon_core.verb:Building package 'radar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar', 'merge_install': False, 'path': '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar', 'symlink_install': False, 'test_result_base': None}
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'cmake_args' from command line to 'None'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'cmake_target' from command line to 'None'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[7.574s] Level 5:colcon.colcon_core.verb:set package 'radar_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.574s] DEBUG:colcon.colcon_core.verb:Building package 'radar_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces', 'merge_install': False, 'path': '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar_interfaces', 'symlink_install': False, 'test_result_base': None}
+[7.574s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.575s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.575s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar' with build type 'ament_python'
+[7.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar', 'ament_prefix_path')
+[7.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/hook/ament_prefix_path.ps1'
+[7.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/hook/ament_prefix_path.dsv'
+[7.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/hook/ament_prefix_path.sh'
+[7.656s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.656s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.672s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar_interfaces' with build type 'ament_cmake'
+[7.673s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar_interfaces'
+[7.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.026s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar'
+[8.026s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.026s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fusion/turtlebot4_ws/install/radar:/home/fusion/turtlebot4_ws/install/df_example:/opt/ros/humble /usr/bin/cmake --build /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces -- -j4 -l4
+[10.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fusion/turtlebot4_ws/install/radar:/home/fusion/turtlebot4_ws/install/df_example:/opt/ros/humble /usr/bin/cmake --build /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces -- -j4 -l4
+[10.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar': PYTHONPATH=/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/prefix_override:/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/radar build --build-base /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build install --record /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/install.log --single-version-externally-managed install_data
+[10.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fusion/turtlebot4_ws/install/radar:/home/fusion/turtlebot4_ws/install/df_example:/opt/ros/humble /usr/bin/cmake --install /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces
+[10.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radar_interfaces)
+[10.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fusion/turtlebot4_ws/install/radar:/home/fusion/turtlebot4_ws/install/df_example:/opt/ros/humble /usr/bin/cmake --install /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces
+[10.677s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces' for CMake module files
+[10.678s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces' for CMake config files
+[10.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_interfaces', 'cmake_prefix_path')
+[10.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/cmake_prefix_path.ps1'
+[10.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/cmake_prefix_path.dsv'
+[10.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/cmake_prefix_path.sh'
+[10.702s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib'
+[10.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_interfaces', 'ld_library_path_lib')
+[10.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/ld_library_path_lib.ps1'
+[10.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/ld_library_path_lib.dsv'
+[10.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/ld_library_path_lib.sh'
+[10.703s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/bin'
+[10.703s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/pkgconfig/radar_interfaces.pc'
+[10.704s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/python3.10/site-packages'
+[10.704s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/bin'
+[10.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.ps1'
+[10.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.dsv'
+[10.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.sh'
+[10.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.bash'
+[10.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.zsh'
+[10.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/colcon-core/packages/radar_interfaces)
+[10.751s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar' for CMake module files
+[10.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar' returned '0': PYTHONPATH=/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/prefix_override:/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/radar build --build-base /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build install --record /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/install.log --single-version-externally-managed install_data
+[10.755s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar' for CMake config files
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib'
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/bin'
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/pkgconfig/radar.pc'
+[10.760s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages'
+[10.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar', 'pythonpath')
+[10.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/hook/pythonpath.ps1'
+[10.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/hook/pythonpath.dsv'
+[10.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/hook/pythonpath.sh'
+[10.766s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/bin'
+[10.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radar)
+[10.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/package.ps1'
+[10.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/package.dsv'
+[10.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/package.sh'
+[10.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/package.bash'
+[10.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/radar/package.zsh'
+[10.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/colcon-core/packages/radar)
+[11.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radar_interfaces)
+[11.007s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces' for CMake module files
+[11.009s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces' for CMake config files
+[11.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_interfaces', 'cmake_prefix_path')
+[11.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/cmake_prefix_path.ps1'
+[11.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/cmake_prefix_path.dsv'
+[11.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/cmake_prefix_path.sh'
+[11.013s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib'
+[11.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('radar_interfaces', 'ld_library_path_lib')
+[11.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/ld_library_path_lib.ps1'
+[11.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/ld_library_path_lib.dsv'
+[11.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/hook/ld_library_path_lib.sh'
+[11.015s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/bin'
+[11.015s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/pkgconfig/radar_interfaces.pc'
+[11.016s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/python3.10/site-packages'
+[11.016s] Level 1:colcon.colcon_core.environment:checking '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/bin'
+[11.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.ps1'
+[11.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.dsv'
+[11.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.sh'
+[11.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.bash'
+[11.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.zsh'
+[11.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/colcon-core/packages/radar_interfaces)
+[11.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.022s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.023s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.043s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.078s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/local_setup.ps1'
+[11.080s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/_local_setup_util_ps1.py'
+[11.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/setup.ps1'
+[11.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/local_setup.sh'
+[11.085s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/_local_setup_util_sh.py'
+[11.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/setup.sh'
+[11.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/local_setup.bash'
+[11.088s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/setup.bash'
+[11.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/local_setup.zsh'
+[11.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/setup.zsh'

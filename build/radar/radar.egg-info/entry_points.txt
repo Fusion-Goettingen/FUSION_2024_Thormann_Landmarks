@@ -1,0 +1,6 @@
+[console_scripts]
+landmark_estimator = radar.nodes.landmark_estimator_node:main
+localizer = radar.nodes.localizer_node:main
+odometry_visualizer = radar.nodes.odometry_visualizer_node:main
+radar_image_visualizer = radar.nodes.radar_image_visualizer_node:main
+

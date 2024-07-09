@@ -1,0 +1,180 @@
+[0.287s] Invoking command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fusion/turtlebot4_ws/install/radar:/home/fusion/turtlebot4_ws/install/df_example:/opt/ros/humble /usr/bin/cmake --build /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces -- -j4 -l4
+[0.351s] [  2%] Built target radar_interfaces__cpp
+[0.352s] [ 12%] Built target radar_interfaces__rosidl_generator_c
+[0.365s] [ 12%] Built target ament_cmake_python_copy_radar_interfaces
+[0.392s] [ 34%] Built target radar_interfaces__rosidl_typesupport_introspection_cpp
+[0.392s] [ 34%] Built target radar_interfaces__rosidl_typesupport_cpp
+[0.398s] [ 44%] Built target radar_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.410s] [ 55%] Built target radar_interfaces__rosidl_typesupport_fastrtps_c
+[0.429s] [ 65%] Built target radar_interfaces__rosidl_typesupport_introspection_c
+[0.433s] [ 76%] Built target radar_interfaces__rosidl_typesupport_c
+[0.458s] [ 76%] Built target radar_interfaces
+[0.481s] [ 78%] Built target radar_interfaces__py
+[0.507s] [ 87%] Built target radar_interfaces__rosidl_generator_py
+[0.538s] [ 91%] Built target radar_interfaces__rosidl_typesupport_c__pyext
+[0.543s] [ 95%] Built target radar_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.552s] [100%] Built target radar_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.703s] running egg_info
+[0.704s] writing radar_interfaces.egg-info/PKG-INFO
+[0.704s] writing dependency_links to radar_interfaces.egg-info/dependency_links.txt
+[0.705s] writing top-level names to radar_interfaces.egg-info/top_level.txt
+[0.708s] reading manifest file 'radar_interfaces.egg-info/SOURCES.txt'
+[0.708s] writing manifest file 'radar_interfaces.egg-info/SOURCES.txt'
+[0.743s] [100%] Built target ament_cmake_python_build_radar_interfaces_egg
+[0.759s] Invoked command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fusion/turtlebot4_ws/install/radar:/home/fusion/turtlebot4_ws/install/df_example:/opt/ros/humble /usr/bin/cmake --build /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces -- -j4 -l4
+[0.897s] Invoking command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fusion/turtlebot4_ws/install/radar:/home/fusion/turtlebot4_ws/install/df_example:/opt/ros/humble /usr/bin/cmake --install /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces
+[0.906s] -- Install configuration: ""
+[0.906s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/ament_index/resource_index/rosidl_interfaces/radar_interfaces
+[0.906s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces
+[0.906s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg
+[0.906s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__functions.c
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__functions.h
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__struct.h
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__type_support.h
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__functions.c
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__functions.h
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__type_support.h
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__struct.h
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__type_support.h
+[0.907s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__functions.c
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__struct.h
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__functions.h
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/ground_truth.h
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/radar.h
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/landmark_estimate.h
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/environment/library_path.sh
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/environment/library_path.dsv
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/libradar_interfaces__rosidl_generator_c.so
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces
+[0.908s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__rosidl_typesupport_fastrtps_c.h
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__rosidl_typesupport_fastrtps_c.h
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__rosidl_typesupport_fastrtps_c.h
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/libradar_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__struct.hpp
+[0.909s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__traits.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__builder.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__builder.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__struct.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__traits.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__traits.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__struct.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__builder.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/landmark_estimate.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/radar.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/ground_truth.hpp
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg
+[0.910s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__rosidl_typesupport_fastrtps_cpp.hpp
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/dds_fastrtps
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__rosidl_typesupport_fastrtps_cpp.hpp
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__rosidl_typesupport_fastrtps_cpp.hpp
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/libradar_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__rosidl_typesupport_introspection_c.h
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__rosidl_typesupport_introspection_c.h
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__rosidl_typesupport_introspection_c.h
+[0.911s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__type_support.c
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__type_support.c
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__type_support.c
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/libradar_interfaces__rosidl_typesupport_introspection_c.so
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/libradar_interfaces__rosidl_typesupport_c.so
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__rosidl_typesupport_introspection_cpp.hpp
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__rosidl_typesupport_introspection_cpp.hpp
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__type_support.cpp
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/radar__rosidl_typesupport_introspection_cpp.hpp
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/ground_truth__type_support.cpp
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/include/radar_interfaces/radar_interfaces/msg/detail/landmark_estimate__type_support.cpp
+[0.912s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/libradar_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.913s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/libradar_interfaces__rosidl_typesupport_cpp.so
+[0.913s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/environment/pythonpath.sh
+[0.913s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/environment/pythonpath.dsv
+[0.913s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces-0.0.0-py3.10.egg-info
+[0.913s] -- Installing: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.913s] -- Installing: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.913s] -- Installing: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.913s] -- Installing: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.913s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces
+[0.913s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/libradar_interfaces__rosidl_generator_py.so
+[0.913s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/_radar_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/radar_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/_radar_interfaces_s.ep.rosidl_typesupport_c.c
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/radar_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg/_landmark_estimate.py
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg/_ground_truth.py
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg/_ground_truth_s.c
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg/_radar_s.c
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg/_radar.py
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg/_landmark_estimate_s.c
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg/__init__.py
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/__init__.py
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/radar_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.914s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/_radar_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.945s] Listing '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces'...
+[0.945s] Listing '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/msg'...
+[0.950s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/radar_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.950s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/radar_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.951s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/local/lib/python3.10/dist-packages/radar_interfaces/radar_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.951s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/lib/libradar_interfaces__rosidl_generator_py.so
+[0.951s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/msg/Radar.idl
+[0.952s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/msg/GroundTruth.idl
+[0.952s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/msg/LandmarkEstimate.idl
+[0.952s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/msg/Radar.msg
+[0.952s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/msg/GroundTruth.msg
+[0.952s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/msg/LandmarkEstimate.msg
+[0.952s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/ament_index/resource_index/package_run_dependencies/radar_interfaces
+[0.952s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/ament_index/resource_index/parent_prefix_path/radar_interfaces
+[0.952s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/environment/ament_prefix_path.sh
+[0.953s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/environment/ament_prefix_path.dsv
+[0.953s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/environment/path.sh
+[0.953s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/environment/path.dsv
+[0.953s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/local_setup.bash
+[0.953s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/local_setup.sh
+[0.953s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/local_setup.zsh
+[0.953s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/local_setup.dsv
+[0.953s] -- Installing: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.dsv
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/ament_index/resource_index/packages/radar_interfaces
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_generator_cExport.cmake
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_generator_cppExport.cmake
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.954s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfaces__rosidl_typesupport_cExport.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfaces__rosidl_typesupport_cppExport.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_generator_pyExport.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/export_radar_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfacesConfig.cmake
+[0.955s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/cmake/radar_interfacesConfig-version.cmake
+[0.956s] -- Up-to-date: /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar_interfaces/share/radar_interfaces/package.xml
+[0.957s] Invoked command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fusion/turtlebot4_ws/install/radar:/home/fusion/turtlebot4_ws/install/df_example:/opt/ros/humble /usr/bin/cmake --install /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar_interfaces

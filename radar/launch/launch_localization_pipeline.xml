@@ -1,0 +1,14 @@
+<!--
+ Launches all nodes for the full localization pipeline.
+ The RADAR pipeline needs to be launched independently if desired.
+ -->
+<launch>
+    <!-- Read radar data and publish landmark estimation results: -->
+    <node pkg="radar" exec="landmark_estimator" name="landmark_estimator" output="screen"/>
+
+    <!-- Read landmark estimation results and publish odometry estimates: -->
+    <node pkg="radar" exec="localizer" name="localizer" output="screen"/>
+    
+    <!-- Read radar data to visualize it, optionall along with  ground truth and landmark estimation: -->
+    <node pkg="radar" exec="odometry_visualizer" name="odometry_visualizer" output="screen"/>
+</launch>

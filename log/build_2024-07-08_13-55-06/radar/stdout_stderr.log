@@ -1,0 +1,125 @@
+running egg_info
+creating ../build/radar/radar.egg-info
+writing ../build/radar/radar.egg-info/PKG-INFO
+writing dependency_links to ../build/radar/radar.egg-info/dependency_links.txt
+writing entry points to ../build/radar/radar.egg-info/entry_points.txt
+writing requirements to ../build/radar/radar.egg-info/requires.txt
+writing top-level names to ../build/radar/radar.egg-info/top_level.txt
+writing manifest file '../build/radar/radar.egg-info/SOURCES.txt'
+reading manifest file '../build/radar/radar.egg-info/SOURCES.txt'
+writing manifest file '../build/radar/radar.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar
+copying radar/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config
+copying radar/config/topics.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config
+copying radar/config/constants.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config
+copying radar/config/file_locations.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config
+copying radar/config/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config
+copying radar/config/radar_config.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes
+copying radar/nodes/radar_image_visualizer_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes
+copying radar/nodes/landmark_estimator_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes
+copying radar/nodes/localizer_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes
+copying radar/nodes/ground_truth_publisher_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes
+copying radar/nodes/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes
+copying radar/nodes/odometry_visualizer_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/algorithms
+copying radar/algorithms/cnn_regression.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/algorithms
+copying radar/algorithms/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/algorithms
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities
+copying radar/utilities/time_keeper.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities
+copying radar/utilities/data_preprocessor.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities
+copying radar/utilities/DBF.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities
+copying radar/utilities/detection_utils.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities
+copying radar/utilities/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities
+copying radar/utilities/utils.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts
+copying radar/scripts/create_odom_visuals_from_json.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts
+copying radar/scripts/create_joint_odom_vis_from_json.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts
+copying radar/scripts/functions.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts
+copying radar/scripts/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation
+copying radar/implementation/radar_image_visualizer.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation
+copying radar/implementation/odometry_visualizer.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation
+copying radar/implementation/pf_localizer.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation
+copying radar/implementation/ground_truth_publisher.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation
+copying radar/implementation/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation
+copying radar/implementation/landmark_estimator.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation
+running install
+running install_lib
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config/topics.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config/constants.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config/file_locations.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config/radar_config.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes/radar_image_visualizer_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes/landmark_estimator_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes/localizer_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes/ground_truth_publisher_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/nodes/odometry_visualizer_node.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/algorithms
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/algorithms/cnn_regression.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/algorithms
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/algorithms/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/algorithms
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities/time_keeper.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities/data_preprocessor.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities/DBF.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities/detection_utils.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/utilities/utils.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts/create_odom_visuals_from_json.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts/create_joint_odom_vis_from_json.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts/functions.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/scripts/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation/radar_image_visualizer.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation/odometry_visualizer.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation/pf_localizer.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation/ground_truth_publisher.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation/__init__.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/implementation/landmark_estimator.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config/topics.py to topics.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config/constants.py to constants.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config/file_locations.py to file_locations.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config/radar_config.py to radar_config.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes/radar_image_visualizer_node.py to radar_image_visualizer_node.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes/landmark_estimator_node.py to landmark_estimator_node.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes/localizer_node.py to localizer_node.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes/ground_truth_publisher_node.py to ground_truth_publisher_node.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/nodes/odometry_visualizer_node.py to odometry_visualizer_node.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/algorithms/cnn_regression.py to cnn_regression.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/algorithms/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities/time_keeper.py to time_keeper.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities/data_preprocessor.py to data_preprocessor.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities/DBF.py to DBF.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities/detection_utils.py to detection_utils.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/utilities/utils.py to utils.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts/create_odom_visuals_from_json.py to create_odom_visuals_from_json.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts/create_joint_odom_vis_from_json.py to create_joint_odom_vis_from_json.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts/functions.py to functions.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/scripts/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation/radar_image_visualizer.py to radar_image_visualizer.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation/odometry_visualizer.py to odometry_visualizer.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation/pf_localizer.py to pf_localizer.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation/ground_truth_publisher.py to ground_truth_publisher.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/implementation/landmark_estimator.py to landmark_estimator.cpython-310.pyc
+running install_data
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/ament_index
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/ament_index/resource_index
+creating /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/share/ament_index/resource_index/packages
+error: can't copy 'resource/radar': doesn't exist or not a regular file

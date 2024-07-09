@@ -1,0 +1,25 @@
+running egg_info
+writing ../build/radar/radar.egg-info/PKG-INFO
+writing dependency_links to ../build/radar/radar.egg-info/dependency_links.txt
+writing entry points to ../build/radar/radar.egg-info/entry_points.txt
+writing requirements to ../build/radar/radar.egg-info/requires.txt
+writing top-level names to ../build/radar/radar.egg-info/top_level.txt
+reading manifest file '../build/radar/radar.egg-info/SOURCES.txt'
+writing manifest file '../build/radar/radar.egg-info/SOURCES.txt'
+running build
+running build_py
+copying radar/config/file_locations.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config
+running install
+running install_lib
+copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config/file_locations.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config
+byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config/file_locations.py to file_locations.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/radar/radar.egg-info to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar-0.0.0-py3.10.egg-info
+running install_scripts
+Installing landmark_estimator script to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/radar
+Installing localizer script to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/radar
+Installing odometry_visualizer script to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/radar
+Installing radar_image_visualizer script to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/radar
+writing list of installed files to '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/install.log'

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from radar_interfaces/msg/Radar.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module radar_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Array for storing a radar signal as an array. Provides header with time stamp and ID information.")
+    struct Radar {
+      std_msgs::msg::Header header;
+
+      sequence<double> data;
+    };
+  };
+};

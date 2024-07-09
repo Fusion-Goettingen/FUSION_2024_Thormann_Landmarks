@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: radar
+Version: 0.0.0
+Summary: Reads raw radar data from Infineon radar BGT60ATR24C from radar topic and true landmark locations from ground_truth topic (included in rosbags). Calculates and publishes the position of the robot relative to pre-defined landmarks.
+Home-page: UNKNOWN
+Maintainer: Kolja Thormann
+Maintainer-email: kolja.thormann@cs.uni-goettingen.de
+License: TODO: License declaration
+Platform: UNKNOWN
+
+UNKNOWN
+

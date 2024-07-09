@@ -1,0 +1,27 @@
+[2.583s] Invoking command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar': PYTHONPATH=/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/prefix_override:/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/radar build --build-base /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build install --record /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/install.log --single-version-externally-managed install_data
+[2.863s] running egg_info
+[2.864s] writing ../build/radar/radar.egg-info/PKG-INFO
+[2.864s] writing dependency_links to ../build/radar/radar.egg-info/dependency_links.txt
+[2.865s] writing entry points to ../build/radar/radar.egg-info/entry_points.txt
+[2.865s] writing requirements to ../build/radar/radar.egg-info/requires.txt
+[2.865s] writing top-level names to ../build/radar/radar.egg-info/top_level.txt
+[2.868s] reading manifest file '../build/radar/radar.egg-info/SOURCES.txt'
+[2.882s] writing manifest file '../build/radar/radar.egg-info/SOURCES.txt'
+[2.882s] running build
+[2.882s] running build_py
+[2.884s] copying radar/config/file_locations.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config
+[2.913s] running install
+[2.913s] running install_lib
+[2.950s] copying /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build/lib/radar/config/file_locations.py -> /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config
+[2.959s] byte-compiling /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar/config/file_locations.py to file_locations.cpython-310.pyc
+[2.966s] running install_data
+[2.991s] running install_egg_info
+[2.998s] removing '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar-0.0.0-py3.10.egg-info' (and everything under it)
+[2.999s] Copying ../build/radar/radar.egg-info to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages/radar-0.0.0-py3.10.egg-info
+[3.029s] running install_scripts
+[3.076s] Installing landmark_estimator script to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/radar
+[3.076s] Installing localizer script to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/radar
+[3.077s] Installing odometry_visualizer script to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/radar
+[3.077s] Installing radar_image_visualizer script to /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/radar
+[3.078s] writing list of installed files to '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/install.log'
+[3.177s] Invoked command in '/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar' returned '0': PYTHONPATH=/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/prefix_override:/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/install/radar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/radar build --build-base /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/build install --record /home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/build/radar/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+{
+  "package_name": "radar_interfaces",
+  "non_idl_tuples": [
+    "/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar_interfaces:msg/Radar.msg",
+    "/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar_interfaces:msg/GroundTruth.msg",
+    "/home/fusion/Downloads/FUSION_2024_Thormann_Landmarks/radar_interfaces:msg/LandmarkEstimate.msg"
+  ]
+}

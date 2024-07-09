@@ -1,0 +1,8 @@
+{
+  "is_visible": 1,
+  "is_noisy": 0,
+  "location_id": 0,
+  "range": [0.975, 1.335],
+  "angle_degree": [11, -12],
+  "compensate_ground_truth_via_odom": 1
+}
